@@ -46,7 +46,21 @@ Local community resilience application built on CivicBase platform.
 **Pilot:** Upplands Väsby (planned)  
 **Partners:** Civilförsvarsförbundet Väsby (in discussion)
 
----
+#### love-ledger** - Care economy tracking framework (conceptual + reference)  
+Status: Research project  
+Focus: Global care economy valorization  
+Currency: Hearts (values care work and mutual aid)
+
+## Repository Structure
+```
+GlobalGovernanceFrameworks/
+├── CivicBase/              (Platform - infrastructure)
+├── Stuga/                  (Application - Swedish crisis)
+│   └── Uses: CivicBase + love-ledger concepts
+├── love-ledger/            (Framework - care economy)
+│   └── Can run on: CivicBase
+└── governance-framework-site/  (Frameworks - global)
+```
 
 ### 🌍 Governance Frameworks (Global Focus)
 
